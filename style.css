@@ -1,0 +1,210 @@
+*{
+  
+  margin:0;
+  padding: 0;
+  
+}
+
+body{
+  
+  background-image: url("bg-desktop.svg");
+ 
+ background-size: cover;
+ background-repeat: no-repeat;
+/* background-color:rgb(76,0,153,1);*/
+
+background-color:hsl(257, 40%, 49%);
+
+ 
+ 
+}
+
+section{
+  
+  width:40%;
+  height: 250px;
+  margin-right:60px;
+  margin-top:140px;
+  float:right;
+  overflow:visible;
+}
+
+section h1{
+  
+  color:white;
+  font-weight:bold;
+  font-size:35px;
+ 
+  
+  
+}
+
+section p{
+  margin-top:10px;
+  color: white;
+  opacity:.8;
+  font-size:14px;
+  
+}
+
+
+
+section a{
+
+  
+  display: inline-block;
+  padding:10px;
+  padding-right:40px;
+  padding-left:40px;
+  overflow: hidden;
+  text-decoration: none;
+  border: none;
+  border-radius:30px;
+  color:rgb(76,0,153,.8);
+  overflow: hidden;
+  
+  background-color:white;
+  margin-top:15px;
+
+}
+#imge{
+  
+  width:200px;
+  position:absolute;
+  top:30px;
+  left:30px;
+ display:inline-block;
+ 
+}
+
+
+#clear{
+  
+  clear:both;
+  
+}
+
+
+
+#content_body{
+  
+  height: 400px;
+  
+  
+}
+
+
+#images{
+  float:left;
+  width:450px;
+  height:250px;
+  margin-top:120px;
+  margin-left:60px;
+  
+  
+}
+
+#feat{
+  
+  
+  position:absolute;
+  bottom:0;
+  right:15px;
+  
+}
+
+.big{
+  width:100%;
+ text-align:right;
+}
+
+#icon{
+  
+  
+  
+width: 33%;
+font:right;
+margin:auto;
+margin-right:100px;
+margin-bottom:10px;
+display: block;
+  
+  
+}
+ 
+
+
+@media(max-width:768px){
+  
+  .container {
+  
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin: auto !important;
+  
+  
+  }
+  
+  
+  
+  section {
+    text-align: center;
+  display: block;
+    width:90%;
+    float: right;
+    overflow: visible;
+  }
+  
+  
+  
+  
+  
+  
+  section h1 {
+  
+  margin-top:30px;
+    color: white;
+    font-weight:bold;
+    font-size:25px;
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  #imge{
+  
+    width:150px;
+    position: absolute;
+    top:30px;
+    left:20px;
+    display: inline-block;
+  
+  }
+  #images {
+    
+    float: left;
+    width:300px;
+    height:250px;
+    margin-top:120px;
+    margin-left:25px;
+    padding:10px;
+  
+  }
+  
+  .con{
+    
+   text-align:center !important;
+   margin: auto;
+  
+    width:33%;
+    
+    
+  }
+  
+  
+  
+}
